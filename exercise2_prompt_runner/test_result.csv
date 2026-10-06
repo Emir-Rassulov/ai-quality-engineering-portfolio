@@ -1,0 +1,4 @@
+id,prompt,category,response,latency_ms,input_tokens,output_tokens,error
+1,What is Python?,factual,Mock response for: What is Python?,0.07906099926913157,,,
+2,FAIL this request,test_error,,0.03744100104086101,,,Mock API error
+3,What is QA?,factual,Mock response for: What is QA?,0.016164995031431317,,,
