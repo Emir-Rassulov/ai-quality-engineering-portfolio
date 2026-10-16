@@ -56,9 +56,8 @@ ai-quality-engineering-portfolio/
 │   └── requirements.txt
 │
 ├── phase2-api-data/
-│   ├── api_contract_tests/        Part A: httpbin contract tests, strict Pydantic model,
-│   │   │                          retry tests through the real SDK, BREAK_IT.md
-│   ├── sql/                       Part B: 14 SQL files (shared clean view, profiling, analysis)
+│   ├── api_contract_tests/        Part A: contract and retry tests, BREAK_IT.md
+│   ├── sql/                       Part B: 14 SQL files, shared clean view
 │   ├── tests/                     Part C: tests for cleaning and reporting
 │   ├── common.py                  shared rules (blank values, silent failures)
 │   ├── clean_data.py              logged, validated cleaning pipeline
