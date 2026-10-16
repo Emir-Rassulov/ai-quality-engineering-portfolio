@@ -85,7 +85,7 @@ def is_retryable_error(error: Exception) -> bool:
 
     status_code = getattr(error, "status_code", None)
 
-    return status_code in (500, 502, 503, 504)
+    return status_code in (429, 500, 502, 503, 504)
 
 
 async def run_prompt(

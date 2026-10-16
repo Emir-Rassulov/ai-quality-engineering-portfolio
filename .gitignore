@@ -1,5 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment and secrets
 .venv/
 .env
-__pycache__/
-.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Editor and generated output
+.vscode/
 results.csv
