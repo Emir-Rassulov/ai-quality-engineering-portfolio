@@ -1,0 +1,613 @@
+id,timestamp,model,category,prompt,response,latency_ms,input_tokens,output_tokens,error,judge_score
+289,2026-09-28 16:20:00,gpt-5-mini,creative,Prompt 289,Answer 289 about creative,1490.0,36,221,,5
+402,2026-10-05 02:48:00,gpt-5,ADVERSARIAL,Prompt 402,Answer 402 about adversarial,2849.6,51,673,,5
+470,2026-10-04 15:51:00,gpt-5-mini,adversarial,Prompt 470,Answer 470 about adversarial,3835.5,42,512,,3
+120,2026-09-30 09:13:00,gpt-5-mini,Factual,Prompt 120,Answer 120 about factual,3734.3,57,537,,3
+30,2026-09-30 02:12:00,gpt-5,adversarial,Prompt 30,,6460.6,,,InternalServerError: Internal server error,
+197,2026-10-03 13:20:00,gpt-5,FACTUAL,Prompt 197,Answer 197 about factual,2149.6,13,709,,5
+163,2026-10-03 21:31:00,gpt-5-mini,factual,Prompt 163,Answer 163 about factual,1771.0,58,778,,4
+509,2026-09-29 18:39:00,GPT-5,factual,Prompt 509,Answer 509 about factual,2237.3,41,501,,4
+56,2026-09-30 20:30:00,gpt-5-mini,factual,Prompt 56,Answer 56 about factual,1995.6,50,635,,4
+168,2026-10-03 02:06:00,gpt-5-mini,factual,Prompt 168,Answer 168 about factual,3147.1,10,896,,4
+522,2026-10-02 13:08:00,gpt-5-mini,ADVERSARIAL,Prompt 522,Answer 522 about adversarial,3062.0,8,682,,5
+23,2026-10-03 02:28:00,gpt-5-mini,factual,Prompt 23,Answer 23 about factual,2909.2,28,307,,3
+127,2026-10-03 17:00:00,gpt-5-mini,FACTUAL,Prompt 127,,2622.7,,,RateLimitError: Too many requests,
+450,2026-10-01 15:57:00,gpt-5-mini,adversarial,Prompt 450,Answer 450 about adversarial,2144.3,25,377,,3
+196,2026-09-29 13:13:00,gpt-5-mini,factual,Prompt 196,Answer 196 about factual,4336.2,23,236,,4
+128,2026-09-29 14:21:00,gpt-5,factual,Prompt 128,Answer 128 about factual,5555.3,15,88,,3
+455,2026-10-03 17:34:00,gpt-5,adversarial,Prompt 455,Answer 455 about adversarial,8026.0,38,199,,5
+270,2026-09-29 18:46:00,gpt-5-mini,adversarial,Prompt 270,Answer 270 about adversarial,3169.4,57,621,,4
+143,2026-09-28 15:10:00,gpt-5,factual,Prompt 143,Answer 143 about factual,3267.5,37,862,,5
+212,2026-10-01 02:05:00,gpt-5-mini,factual,Prompt 212,Answer 212 about factual,1755.5,35,848,,4
+569,2026-09-30 05:30:00,gpt-5-mini,adversarial,Prompt 569,Answer 569 about adversarial,2528.7,35,246,,5
+494,2026-10-03 15:30:00,gpt-5-mini,factual,Prompt 494,Answer 494 about factual,2515.6,37,323,,5
+579,2026-09-29 14:33:00,gpt-5-mini,adversarial,Prompt 579,Answer 579 about adversarial,2454.9,15,574,,4
+505,2026-10-01 19:55:00,gpt-5-mini, factual ,Prompt 505,,2894.3,,,RateLimitError: Too many requests,
+122,2026-10-03 00:11:00,gpt-5-mini,adversarial,Prompt 122,Answer 122 about adversarial,1514.2,36,665,,4
+1,2026-10-01 11:06:00,GPT-5-MINI,creative,Prompt 1,Answer 1 about creative,1749.9,14,732,,5
+492,2026-10-02 07:59:00,gpt-5,factual,Prompt 492,Answer 492 about factual,-1,20,74,,1
+531,2026-09-30 00:30:00,gpt-5-mini,adversarial,Prompt 531,Answer 531 about adversarial,1786.1,18,673,,4
+35,2026-10-01 21:43:00,gpt-5-mini,out_of_scope,Prompt 35,Answer 35 about out_of_scope,2541.0,27,559,,4
+341,2026-10-04 23:54:00,gpt-5-mini,factual,Prompt 341,Answer 341 about factual,1763.8,26,845,,5
+477,2026-09-29 21:58:00,GPT-5, adversarial ,Prompt 477,Answer 477 about adversarial,2840.5,31,900,,2
+40,2026-10-03 04:05:00,gpt-5-mini,factual,Prompt 40,Answer 40 about factual,726.5,52,570,,4
+152,2026-10-04 00:11:00,gpt-5,creative,Prompt 152,Answer 152 about creative,7518.0,13,442,,4
+594,2026-10-05 05:34:00,gpt-5-mini,factual,Prompt 594,Answer 594 about factual,2973.3,10,45,,4
+512,2026-09-30 03:37:00,gpt-5-mini,creative,Prompt 512,Answer 512 about creative,2523.7,49,412,,4
+383,2026-09-30 08:13:00,gpt-5-mini,creative,Prompt 383,Answer 383 about creative,2051.3,48,569,,4
+46,2026-09-30 05:04:00,gpt-5,factual,Prompt 46,Answer 46 about factual,9068.8,50,67,,2
+132,2026-10-03 14:52:00,GPT-5-MINI,factual,Prompt 132,Answer 132 about factual,4482.9,19,870,,3
+381,2026-10-02 11:55:00,gpt-5-mini,creative,Prompt 381,Answer 381 about creative,1440.3,34,757,,5
+116,2026-09-28 18:41:00,gpt-5-mini,creative,Prompt 116,Answer 116 about creative,1556.0,36,576,,4
+385,2026-10-04 17:00:00,gpt-5-mini,factual,Prompt 385,Answer 385 about factual,2778.9,30,60,,4
+272,2026-10-03 09:57:00,gpt-5-mini,creative,Prompt 272,,2767.8,,,RuntimeError: Invalid request,
+20,2026-09-29 00:00:00,gpt-5,factual,Prompt 20,Answer 20 about factual,1328.3,58,505,,4
+325,2026-09-29 21:43:00,gpt-5-mini,creative,Prompt 325,Answer 325 about creative,1757.5,55,564,,4
+435,2026-09-30 01:29:00,gpt-5-mini,factual,Prompt 435,Answer 435 about factual,2800.2,19,66,,5
+568,2026-10-02 15:08:00,gpt-5-mini,factual,Prompt 568,Answer 568 about factual,2383.6,14,867,,4
+190,2026-10-04 14:45:00,gpt-5-mini,factual,Prompt 190,Answer 190 about factual,1815.5,37,586,,4
+458,2026-10-01 20:10:00,gpt-5-mini,factual,Prompt 458,Answer 458 about factual,2772.1,10,318,,4
+352,2026-10-03 09:50:00,GPT-5-MINI,adversarial,Prompt 352,Answer 352 about adversarial,1199.4,44,715,,1
+591,2026-10-03 22:56:00,gpt-5,factual,Prompt 591,Answer 591 about factual,5702.8,39,431,,3
+166,2026-09-29 11:21:00,gpt-5-mini,creative,Prompt 166,,30208,,,TimeoutError: no response within 30s,
+570,2026-10-01 17:11:00,gpt-5-mini,factual,Prompt 570,Answer 570 about factual,-1,22,679,,5
+220,2026-10-01 07:38:00,gpt-5-mini,factual,Prompt 220,Answer 220 about factual,2847.9,48,360,,4
+404,2026-10-02 09:48:00,gpt-5,factual,Prompt 404,Answer 404 about factual,5292.4,10,536,,5
+146,2026-10-02 00:06:00,gpt-5-mini,factual,Prompt 146,Answer 146 about factual,3393.2,41,330,,5
+530,2026-10-03 13:03:00,gpt-5,creative,Prompt 530,Answer 530 about creative,3528.4,58,353,,3
+141,2026-09-30 14:39:00,gpt-5,factual,Prompt 141,Answer 141 about factual,2914.5,36,129,,5
+158,2026-10-03 01:44:00,gpt-5-mini,factual,Prompt 158,Answer 158 about factual,3023.4,54,744,,4
+239,2026-09-28 15:19:00,gpt-5-mini,factual,Prompt 239,Answer 239 about factual,4829.2,27,250,,4
+429,2026-10-04 17:06:00,gpt-5,factual,Prompt 429,Answer 429 about factual,2775.1,29,541,,4
+393,2026-09-28 10:52:00,gpt-5-mini,factual,Prompt 393,Answer 393 about factual,3313.0,38,587,,1
+188,2026-10-02 13:19:00,gpt-5,factual,Prompt 188,Answer 188 about factual,3029.7,51,659,,4
+31,2026-10-01 08:51:00,gpt-5-mini,adversarial,Prompt 31,Answer 31 about adversarial,911.9,32,79,,2
+539,2026-10-01 18:48:00,GPT-5-MINI,factual,Prompt 539,Answer 539 about factual,1897.5,29,107,,5
+123,2026-09-30 12:58:00,gpt-5,adversarial,Prompt 123,Answer 123 about adversarial,8413.2,26,836,,3
+501,2026-09-30 12:09:00,gpt-5,creative,Prompt 501,Answer 501 about creative,3256.0,14,685,,5
+66,2026-10-03 07:55:00,gpt-5-mini,creative,Prompt 66,Answer 66 about creative,866.7,52,452,,5
+267,2026-09-29 19:37:00,gpt-5-mini,factual,Prompt 267,Answer 267 about factual,1894.6,59,371,,2
+330,2026-10-04 17:15:00,gpt-5-mini,adversarial,Prompt 330,,1846.1,,,RuntimeError: Invalid request,
+85,2026-09-29 10:31:00,gpt-5-mini,creative,Prompt 85,Answer 85 about creative,5307.0,27,847,,4
+94,2026-10-01 11:42:00,GPT-5-MINI,factual,Prompt 94,Answer 94 about factual,3040.3,16,593,,4
+451,2026-10-03 20:04:00,gpt-5-mini,adversarial,Prompt 451,Answer 451 about adversarial,3408.1,58,763,,4
+102,2026-10-04 20:46:00,GPT-5-MINI,factual,Prompt 102,Answer 102 about factual,1519.2,43,825,,5
+21,2026-09-30 02:16:00,gpt-5,ADVERSARIAL,Prompt 21,Answer 21 about adversarial,3092.8,11,633,,1
+281,2026-09-30 17:51:00,gpt-5-mini,out_of_scope,Prompt 281,Answer 281 about out_of_scope,2889.2,35,120,,5
+439,2026-10-05 06:58:00,gpt-5,adversarial,Prompt 439,,9272.4,,,RateLimitError: Too many requests,
+294,2026-09-30 11:26:00,gpt-5-mini,factual,Prompt 294,Answer 294 about factual,3943.5,50,367,,5
+456,2026-10-04 06:17:00,gpt-5-mini,factual,Prompt 456,Answer 456 about factual,1252.6,28,608,,4
+64,2026-10-01 15:31:00,gpt-5,factual,Prompt 64,,2530.1,26,0,,5
+576,2026-10-01 03:03:00,gpt-5-mini,factual,Prompt 576,Answer 576 about factual,3068.1,39,613,,5
+34,2026-09-28 08:27:00,gpt-5,factual,Prompt 34,Answer 34 about factual,4547.4,51,776,,5
+340,2026-10-04 16:23:00,gpt-5-mini,factual,Prompt 340,Answer 340 about factual,3758.7,36,685,,4
+237,2026-09-29 23:00:00,gpt-5-mini,factual,Prompt 237,Answer 237 about factual,1025.8,47,705,,3
+269,2026-09-30 07:34:00,gpt-5-mini,out_of_scope,Prompt 269,Answer 269 about out_of_scope,3169.6,47,845,,4
+339,2026-09-29 12:22:00,gpt-5,FACTUAL,Prompt 339,,3197.1,,,InternalServerError: Internal server error,
+400,2026-10-03 17:06:00,gpt-5-mini,adversarial,Prompt 400,Answer 400 about adversarial,4387.1,43,573,,3
+342,2026-10-03 17:25:00,gpt-5-mini,factual,Prompt 342,Answer 342 about factual,1565.8,55,440,,5
+556,2026-09-30 21:40:00,gpt-5,out_of_scope,Prompt 556,Answer 556 about out_of_scope,4453.8,35,233,,5
+48,2026-10-02 07:33:00,GPT-5-MINI,factual,Prompt 48,Answer 48 about factual,1750.5,49,81,,5
+268,2026-09-29 03:48:00,gpt-5-mini,factual,Prompt 268,Answer 268 about factual,2011.3,27,370,,3
+486,2026-09-30 09:22:00,gpt-5,adversarial,Prompt 486,Answer 486 about adversarial,3678.8,17,649,,2
+28,2026-10-04 14:38:00,GPT-5,Factual,Prompt 28,Answer 28 about factual,6029.6,15,117,,5
+129,2026-10-05 02:56:00,gpt-5,adversarial,Prompt 129,,4529.9,,,InternalServerError: Internal server error,
+551,2026-09-29 02:05:00,gpt-5-mini,out_of_scope,Prompt 551,,30382,,,TimeoutError: no response within 30s,
+251,2026-10-01 02:14:00,gpt-5-mini,factual,Prompt 251,Answer 251 about factual,2055.0,39,831,,5
+567,2026-10-04 11:01:00,gpt-5-mini,FACTUAL,Prompt 567,Answer 567 about factual,1715.1,35,621,,4
+421,2026-10-04 13:40:00,gpt-5-mini, creative ,Prompt 421,Answer 421 about creative,2020.6,40,484,,5
+444,2026-10-04 07:02:00,gpt-5-mini,creative,Prompt 444,Answer 444 about creative,3952.4,40,666,,5
+179,2026-09-28 16:39:00,gpt-5,out_of_scope,Prompt 179,Answer 179 about out_of_scope,3437.2,16,824,,4
+176,2026-10-04 13:32:00,gpt-5-mini,creative,Prompt 176,Answer 176 about creative,3248.8,42,193,,3
+562,2026-09-28 16:37:00,gpt-5-mini,out_of_scope,Prompt 562,,1288.9,,,InternalServerError: Internal server error,
+389,2026-09-30 05:34:00,gpt-5-mini,adversarial,Prompt 389,Answer 389 about adversarial,2014.9,38,601,,4
+277,2026-09-30 14:31:00,gpt-5,adversarial,Prompt 277,Answer 277 about adversarial,2837.1,48,338,,3
+343,2026-09-28 11:02:00,gpt-5-mini,factual,Prompt 343,Answer 343 about factual,2414.1,15,82,,1
+514,2026-10-02 01:03:00,gpt-5-mini,factual,Prompt 514,Answer 514 about factual,1670.3,34,244,,4
+164,2026-09-29 23:59:00,gpt-5-mini,out_of_scope,Prompt 164,Answer 164 about out_of_scope,1753.1,53,120,,4
+473,2026-10-02 01:24:00,GPT-5,adversarial,Prompt 473,Answer 473 about adversarial,4145.9,13,262,,5
+461,2026-09-30 16:01:00,gpt-5-mini,OUT_OF_SCOPE,Prompt 461,Answer 461 about out_of_scope,3031.7,53,574,,3
+560,2026-09-29 20:45:00,gpt-5-mini,Creative,Prompt 560,Answer 560 about creative,3656.7,9,223,,4
+154,2026-10-02 11:55:00,gpt-5,adversarial,Prompt 154,Answer 154 about adversarial,4526.5,26,115,,3
+558,2026-09-29 01:40:00,gpt-5-mini,out_of_scope,Prompt 558,Answer 558 about out_of_scope,1929.2,20,649,,5
+441,2026-10-01 14:04:00,gpt-5-mini,factual,Prompt 441,Answer 441 about factual,2089.2,47,95,,5
+577,2026-10-01 06:33:00,gpt-5-mini,factual,Prompt 577,,2998.4,,,RuntimeError: Invalid request,
+491,2026-10-04 05:58:00,gpt-5-mini,ADVERSARIAL,Prompt 491,Answer 491 about adversarial,1467.0,19,360,,4
+510,2026-10-05 07:07:00,gpt-5,factual,Prompt 510,Answer 510 about factual,5868.5,8,611,,3
+535,2026-10-01 20:07:00,gpt-5-mini,adversarial,Prompt 535,Answer 535 about adversarial,1572.3,28,96,,2
+334,2026-10-04 07:28:00,gpt-5-mini,factual,Prompt 334,Answer 334 about factual,1688.0,12,845,,4
+232,2026-09-30 19:28:00,gpt-5,out_of_scope,Prompt 232,Answer 232 about out_of_scope,4174.8,26,385,,4
+390,2026-10-02 18:27:00,GPT-5-MINI,creative,Prompt 390,Answer 390 about creative,1809.3,26,493,,4
+74,2026-10-02 04:48:00,gpt-5,factual,Prompt 74,Answer 74 about factual,8298.6,60,42,,4
+590,2026-09-28 21:35:00,gpt-5-mini, adversarial ,Prompt 590,Answer 590 about adversarial,1924.5,24,192,,3
+287,2026-10-03 20:17:00,gpt-5, factual ,Prompt 287,Answer 287 about factual,7003.0,18,107,,4
+210,2026-10-02 00:59:00,gpt-5-mini,creative,Prompt 210,Answer 210 about creative,1306.1,33,413,,3
+431,2026-10-02 05:19:00,gpt-5-mini,factual,Prompt 431,Answer 431 about factual,5377.4,13,787,,4
+37,2026-10-03 08:38:00,gpt-5, adversarial ,Prompt 37,Answer 37 about adversarial,3968.1,38,852,,4
+387,2026-09-30 05:45:00,gpt-5-mini,creative,Prompt 387,Answer 387 about creative,1882.8,33,113,,2
+362,2026-10-05 04:47:00,GPT-5-MINI,creative,Prompt 362,Answer 362 about creative,2267.8,57,734,,4
+365,2026-09-30 16:05:00,gpt-5,creative,Prompt 365,Answer 365 about creative,5191.2,31,149,,3
+279,2026-10-04 18:04:00,gpt-5-mini,factual,Prompt 279,Answer 279 about factual,2534.2,30,867,,4
+374,2026-09-29 15:57:00,gpt-5-mini,creative,Prompt 374,Answer 374 about creative,2657.9,32,616,,4
+384,2026-10-02 20:47:00,gpt-5-mini, out_of_scope ,Prompt 384,Answer 384 about out_of_scope,1519.6,21,873,,4
+2,2026-10-04 01:59:00,gpt-5-mini,factual,Prompt 2,Answer 2 about factual,2632.6,53,705,,5
+77,2026-10-03 23:15:00,gpt-5-mini,adversarial,Prompt 77,,30209,,,TimeoutError: no response within 30s,
+181,2026-09-30 20:48:00,gpt-5-mini,factual,Prompt 181,Answer 181 about factual,6350.8,27,514,,5
+293,2026-10-04 17:18:00,gpt-5-mini,out_of_scope,Prompt 293,,2942.9,,,InternalServerError: Internal server error,
+13,2026-10-01 01:23:00,gpt-5-mini,factual,Prompt 13,Answer 13 about factual,2174.6,56,585,,5
+574,2026-10-04 18:35:00,gpt-5,out_of_scope,Prompt 574,Answer 574 about out_of_scope,5059.0,20,413,,4
+91,2026-10-05 00:22:00,GPT-5,adversarial,Prompt 91,Answer 91 about adversarial,5239.9,34,710,,3
+144,2026-10-04 07:32:00,gpt-5,FACTUAL,Prompt 144,Answer 144 about factual,3737.7,44,115,,3
+234,2026-09-30 03:24:00,gpt-5-mini,OUT_OF_SCOPE,Prompt 234,Answer 234 about out_of_scope,1346.6,13,420,,5
+524,2026-10-02 11:49:00,gpt-5-mini, factual ,Prompt 524,Answer 524 about factual,1641.1,53,108,,4
+211,2026-10-03 14:03:00,gpt-5-mini,adversarial,Prompt 211,Answer 211 about adversarial,3391.0,59,338,,1
+29,2026-10-03 05:21:00,gpt-5-mini,factual,Prompt 29,Answer 29 about factual,1451.6,58,80,,5
+130,2026-10-04 06:56:00,gpt-5-mini,adversarial,Prompt 130,,2291.7,,,RuntimeError: Invalid request,
+492,2026-10-02 07:59:00,gpt-5,factual,Prompt 492,Answer 492 about factual,-1,20,74,,1
+169,2026-09-28 10:31:00,gpt-5-mini,out_of_scope,Prompt 169,Answer 169 about out_of_scope,1486.8,29,331,,4
+302,2026-09-28 12:53:00,gpt-5-mini,adversarial,Prompt 302,Answer 302 about adversarial,3170.7,23,271,,2
+329,2026-09-29 23:59:00,gpt-5-mini, factual ,Prompt 329,,5130.7,,,RuntimeError: Invalid request,
+552,2026-10-04 00:42:00,gpt-5-mini,factual,Prompt 552,Answer 552 about factual,3851.8,40,623,,2
+482,2026-10-05 07:24:00,gpt-5-mini,adversarial,Prompt 482,Answer 482 about adversarial,1300.2,57,51,,3
+465,2026-09-28 15:55:00,gpt-5-mini,factual,Prompt 465,Answer 465 about factual,2052.0,14,432,,2
+544,2026-10-01 06:52:00,gpt-5-mini,adversarial,Prompt 544,Answer 544 about adversarial,700.8,16,405,,2
+257,2026-09-30 00:30:00,gpt-5-mini,factual,Prompt 257,Answer 257 about factual,1445.8,30,445,,4
+353,2026-09-29 01:09:00,gpt-5-mini,adversarial,Prompt 353,Answer 353 about adversarial,1734.9,50,251,,4
+80,2026-09-28 15:54:00,gpt-5-mini,factual,Prompt 80,Answer 80 about factual,1704.5,17,290,,4
+244,2026-09-28 23:48:00,GPT-5-MINI,factual,Prompt 244,Answer 244 about factual,1024.1,11,356,,5
+541,2026-10-04 23:48:00,gpt-5-mini,creative,Prompt 541,,1560.5,,,InternalServerError: Internal server error,
+295,2026-10-02 22:28:00,gpt-5,factual,Prompt 295,Answer 295 about factual,3840.8,53,625,,5
+285,2026-09-28 18:35:00,gpt-5,adversarial,Prompt 285,Answer 285 about adversarial,2160.8,52,283,,3
+599,2026-09-30 09:19:00,gpt-5-mini,factual,Prompt 599,Answer 599 about factual,6187.4,60,319,,4
+139,2026-10-05 05:13:00,gpt-5-mini, out_of_scope ,Prompt 139,,1352.7,31,0,,4
+199,2026-09-30 22:44:00,gpt-5-mini,out_of_scope,Prompt 199,Answer 199 about out_of_scope,3891.8,10,116,,5
+307,2026-10-04 06:04:00,gpt-5-mini,factual,Prompt 307,Answer 307 about factual,35060.0,16,468,,5
+100,2026-10-03 17:30:00,gpt-5-mini,factual,Prompt 100,Answer 100 about factual,5858.1,43,101,,4
+280,2026-10-04 10:13:00,gpt-5,adversarial,Prompt 280,,30061,,,TimeoutError: no response within 30s,
+369,2026-09-29 23:41:00,gpt-5-mini,factual,Prompt 369,Answer 369 about factual,2082.9,13,105,,4
+496,2026-10-05 06:39:00,gpt-5-mini,out_of_scope,Prompt 496,Answer 496 about out_of_scope,1741.3,14,187,,4
+218,2026-10-03 14:10:00,gpt-5,FACTUAL,Prompt 218,Answer 218 about factual,2965.8,19,230,,4
+192,2026-10-01 16:36:00,gpt-5,out_of_scope,Prompt 192,Answer 192 about out_of_scope,2814.2,32,623,,5
+376,2026-09-29 04:45:00,gpt-5-mini,adversarial,Prompt 376,Answer 376 about adversarial,2315.7,28,402,,4
+373,2026-10-02 06:53:00,gpt-5-mini,adversarial,Prompt 373,,30208,,,TimeoutError: no response within 30s,
+209,2026-10-01 23:33:00,gpt-5-mini,creative,Prompt 209,Answer 209 about creative,2857.5,38,361,,3
+189,2026-10-03 18:54:00,gpt-5-mini,adversarial,Prompt 189,Answer 189 about adversarial,1671.6,55,160,,4
+226,2026-10-04 12:00:00,gpt-5-mini,factual,Prompt 226,Answer 226 about factual,3193.5,35,144,,5
+587,2026-09-29 21:09:00,gpt-5,factual,Prompt 587,Answer 587 about factual,2948.2,15,201,,3
+553,2026-09-30 06:54:00,gpt-5-mini,adversarial,Prompt 553,Answer 553 about adversarial,4298.9,54,141,,5
+160,2026-09-30 12:05:00,gpt-5-mini,factual,Prompt 160,Answer 160 about factual,1280.6,17,462,,5
+140,2026-10-01 04:09:00,gpt-5-mini,factual,Prompt 140,Answer 140 about factual,1330.9,43,160,,4
+506,2026-09-30 15:20:00,gpt-5-mini,creative,Prompt 506,Answer 506 about creative,1626.2,55,734,,4
+425,2026-10-01 14:33:00,gpt-5-mini,factual,Prompt 425,Answer 425 about factual,1274.8,9,379,,3
+410,2026-09-29 05:50:00,gpt-5,factual,Prompt 410,Answer 410 about factual,3922.8,31,611,,5
+265,2026-09-30 08:05:00,gpt-5-mini,factual,Prompt 265,Answer 265 about factual,1632.7,55,754,,4
+324,2026-10-04 01:39:00,gpt-5-mini,creative,Prompt 324,Answer 324 about creative,3650.7,46,749,,5
+291,2026-09-28 10:25:00,gpt-5-mini,adversarial,Prompt 291,Answer 291 about adversarial,2149.9,19,655,,2
+157,2026-10-02 19:18:00,GPT-5-MINI,creative,Prompt 157,Answer 157 about creative,1741.8,40,585,,4
+273,2026-10-02 15:24:00,gpt-5,out_of_scope,Prompt 273,Answer 273 about out_of_scope,3494.6,38,847,,5
+72,2026-09-30 03:14:00,gpt-5-mini,Out_of_scope,Prompt 72,Answer 72 about out_of_scope,2007.4,15,512,,5
+483,2026-10-01 14:58:00,gpt-5-mini,out_of_scope,Prompt 483,Answer 483 about out_of_scope,948.1,46,807,,4
+328,2026-09-28 11:29:00,gpt-5,creative,Prompt 328,Answer 328 about creative,4276.3,17,94,,5
+216,2026-09-29 15:41:00,gpt-5-mini,factual,Prompt 216,Answer 216 about factual,5676.3,30,359,,4
+580,2026-10-01 21:34:00,gpt-5-mini,factual,Prompt 580,Answer 580 about factual,1602.2,32,865,,5
+406,2026-09-28 08:11:00,gpt-5,creative,Prompt 406,Answer 406 about creative,6463.9,54,229,,5
+142,2026-10-01 17:54:00,gpt-5-mini,adversarial,Prompt 142,Answer 142 about adversarial,5638.8,52,693,,3
+180,2026-10-02 15:04:00,gpt-5, out_of_scope ,Prompt 180,Answer 180 about out_of_scope,3103.4,50,592,,3
+229,2026-09-29 21:01:00,gpt-5-mini,creative,Prompt 229,Answer 229 about creative,3043.5,16,295,,3
+215,2026-10-03 09:43:00,gpt-5-mini,creative,Prompt 215,Answer 215 about creative,1835.8,51,642,,5
+555,2026-10-01 14:43:00,gpt-5-mini,creative,Prompt 555,Answer 555 about creative,2303.5,28,545,,3
+424,2026-09-29 23:49:00,gpt-5, adversarial ,Prompt 424,Answer 424 about adversarial,2290.2,22,244,,2
+313,2026-09-29 12:19:00,GPT-5-MINI,adversarial,Prompt 313,Answer 313 about adversarial,1877.7,59,622,,2
+305,2026-09-29 17:37:00,GPT-5-MINI,factual,Prompt 305,Answer 305 about factual,1638.4,10,424,,5
+312,2026-10-03 12:39:00,gpt-5,Factual,Prompt 312,Answer 312 about factual,3153.0,38,859,,4
+386,2026-10-01 13:43:00,gpt-5-mini,creative,Prompt 386,Answer 386 about creative,1562.4,39,833,,5
+15,2026-09-28 13:44:00,gpt-5-mini,factual,Prompt 15,Answer 15 about factual,2403.7,22,47,,2
+472,2026-09-29 15:13:00,gpt-5,ADVERSARIAL,Prompt 472,Answer 472 about adversarial,4794.9,43,139,,2
+592,2026-10-03 02:13:00,gpt-5-mini, factual ,Prompt 592,Answer 592 about factual,1516.7,23,418,,4
+165,2026-10-04 17:28:00,gpt-5-mini,factual,Prompt 165,Answer 165 about factual,2622.2,47,798,,4
+170,2026-10-01 10:30:00,gpt-5,factual,Prompt 170,Answer 170 about factual,3215.0,18,788,,4
+315,2026-10-04 05:44:00,gpt-5-mini,creative,Prompt 315,Answer 315 about creative,2335.0,14,483,,5
+195,2026-10-03 21:13:00,gpt-5,factual,Prompt 195,Answer 195 about factual,3917.6,54,321,,4
+101,2026-09-28 22:02:00,gpt-5, factual ,Prompt 101,Answer 101 about factual,3201.9,21,198,,5
+16,2026-10-04 04:23:00,gpt-5-mini,out_of_scope,Prompt 16,Answer 16 about out_of_scope,1194.2,21,592,,3
+112,2026-10-04 17:56:00,gpt-5,creative,Prompt 112,Answer 112 about creative,6044.4,44,698,,4
+43,2026-10-01 23:18:00,gpt-5-mini,factual,Prompt 43,Answer 43 about factual,1421.3,17,763,,3
+359,2026-10-05 05:37:00,gpt-5,factual,Prompt 359,Answer 359 about factual,6135.6,60,825,,3
+327,2026-09-29 15:30:00,gpt-5-mini,factual,Prompt 327,Answer 327 about factual,3484.7,45,624,,5
+430,2026-10-04 00:52:00,gpt-5-mini,CREATIVE,Prompt 430,Answer 430 about creative,1829.4,24,436,,5
+87,2026-10-02 04:29:00,gpt-5-mini,out_of_scope,Prompt 87,Answer 87 about out_of_scope,3421.9,12,184,,5
+283,2026-09-29 14:43:00,gpt-5,creative,Prompt 283,Answer 283 about creative,3886.6,45,636,,5
+18,2026-10-01 03:53:00,gpt-5-mini,ADVERSARIAL,Prompt 18,Answer 18 about adversarial,1316.6,16,472,,3
+411,2026-10-04 08:27:00,gpt-5-mini,factual,Prompt 411,Answer 411 about factual,3188.7,20,237,,4
+207,2026-10-01 17:51:00,gpt-5,factual,Prompt 207,Answer 207 about factual,4145.0,24,292,,5
+564,2026-10-02 18:52:00,gpt-5-mini,out_of_scope,Prompt 564,Answer 564 about out_of_scope,1407.5,32,671,,5
+547,2026-09-29 11:58:00,gpt-5-mini,factual,Prompt 547,Answer 547 about factual,1418.9,20,854,,5
+198,2026-09-28 23:19:00,gpt-5,factual,Prompt 198,Answer 198 about factual,5991.5,13,551,,5
+38,2026-09-29 09:30:00,gpt-5-mini,CREATIVE,Prompt 38,Answer 38 about creative,5907.5,51,357,,3
+114,2026-09-29 04:57:00,GPT-5-MINI,factual,Prompt 114,Answer 114 about factual,1009.3,32,513,,4
+511,2026-10-03 14:45:00,gpt-5-mini,factual,Prompt 511,Answer 511 about factual,4059.4,25,94,,3
+299,2026-09-29 21:30:00,gpt-5-mini,factual,Prompt 299,Answer 299 about factual,3922.3,44,508,,3
+259,2026-09-29 19:41:00,gpt-5-mini,adversarial,Prompt 259,Answer 259 about adversarial,1491.4,51,685,,1
+204,2026-10-01 22:28:00,gpt-5, factual ,Prompt 204,Answer 204 about factual,3731.1,27,495,,4
+548,2026-10-03 01:57:00,gpt-5-mini,creative,Prompt 548,Answer 548 about creative,2128.5,60,174,,5
+219,2026-10-02 18:10:00,gpt-5,factual,Prompt 219,Answer 219 about factual,2357.2,58,104,,4
+118,2026-10-02 03:01:00,gpt-5-mini,creative,Prompt 118,Answer 118 about creative,3507.4,49,755,,5
+416,2026-09-29 09:44:00,gpt-5-mini,creative,Prompt 416,Answer 416 about creative,1264.4,16,311,,4
+105,2026-09-28 22:21:00,gpt-5-mini,creative,Prompt 105,Answer 105 about creative,2038.5,46,492,,4
+278,2026-09-29 08:53:00,gpt-5-mini,out_of_scope,Prompt 278,Answer 278 about out_of_scope,2630.8,31,430,,4
+110,2026-10-02 04:42:00,gpt-5-mini,factual,Prompt 110,Answer 110 about factual,831.4,12,562,,4
+206,2026-10-04 16:47:00,gpt-5-mini,factual,Prompt 206,Answer 206 about factual,2352.2,32,213,,3
+36,2026-10-02 15:31:00,gpt-5,factual,Prompt 36,Answer 36 about factual,4771.5,43,893,,1
+304,2026-10-02 10:05:00,gpt-5,out_of_scope,Prompt 304,Answer 304 about out_of_scope,5292.5,59,453,,1
+202,2026-10-02 01:07:00,gpt-5,factual,Prompt 202,Answer 202 about factual,2548.2,36,542,,3
+578,2026-10-05 04:16:00,gpt-5-mini,out_of_scope,Prompt 578,Answer 578 about out_of_scope,1862.5,34,412,,5
+499,2026-09-28 08:54:00,gpt-5-mini,factual,Prompt 499,Answer 499 about factual,1650.9,57,533,,3
+518,2026-10-01 12:13:00,gpt-5,creative,Prompt 518,Answer 518 about creative,2180.9,23,293,,4
+193,2026-10-03 21:57:00,gpt-5,factual,Prompt 193,Answer 193 about factual,3750.6,30,213,,3
+39,2026-10-03 12:21:00,gpt-5-mini,creative,Prompt 39,Answer 39 about creative,1840.5,20,775,,5
+266,2026-10-04 17:45:00,gpt-5-mini,CREATIVE,Prompt 266,Answer 266 about creative,2288.5,10,132,,2
+515,2026-09-30 19:01:00,gpt-5-mini,out_of_scope,Prompt 515,Answer 515 about out_of_scope,4033.1,32,422,,3
+489,2026-10-01 14:51:00,gpt-5-mini,OUT_OF_SCOPE,Prompt 489,Answer 489 about out_of_scope,4002.1,51,363,,5
+565,2026-10-02 12:03:00,gpt-5-mini, creative ,Prompt 565,Answer 565 about creative,1399.6,9,823,,5
+529,2026-10-01 15:36:00,gpt-5-mini,factual,Prompt 529,Answer 529 about factual,2250.8,45,391,,5
+194,2026-10-04 07:04:00,gpt-5-mini,out_of_scope,Prompt 194,Answer 194 about out_of_scope,3113.5,48,276,,2
+468,2026-10-02 11:14:00,GPT-5-MINI,out_of_scope,Prompt 468,Answer 468 about out_of_scope,1667.1,50,378,,5
+493,2026-09-29 16:45:00,gpt-5-mini,adversarial,Prompt 493,Answer 493 about adversarial,980.9,32,712,,4
+69,2026-09-29 12:33:00,gpt-5-mini,factual,Prompt 69,Answer 69 about factual,3321.9,52,547,,4
+44,2026-10-02 18:21:00,GPT-5,factual,Prompt 44,Answer 44 about factual,8904.0,52,60,,5
+532,2026-09-30 04:01:00,gpt-5-mini,adversarial,Prompt 532,,1870.9,,,InternalServerError: Internal server error,
+147,2026-10-05 07:46:00,gpt-5-mini,factual,Prompt 147,Answer 147 about factual,2317.3,18,646,,5
+394,2026-10-01 15:59:00,gpt-5,factual,Prompt 394,Answer 394 about factual,6071.2,43,422,,3
+426,2026-09-29 22:35:00,gpt-5,factual,Prompt 426,Answer 426 about factual,6613.0,32,636,,5
+126,2026-10-02 17:26:00,gpt-5-mini,creative,Prompt 126,Answer 126 about creative,4052.0,9,366,,5
+4,2026-10-03 13:27:00,gpt-5-mini,factual,Prompt 4,Answer 4 about factual,6226.1,32,120,,4
+322,2026-10-03 01:10:00,gpt-5-mini,adversarial,Prompt 322,Answer 322 about adversarial,2560.0,36,508,,5
+347,2026-10-01 22:22:00,gpt-5-mini,factual,Prompt 347,Answer 347 about factual,1122.7,53,797,,4
+408,2026-10-04 06:52:00,gpt-5-mini,factual,Prompt 408,Answer 408 about factual,2501.1,16,222,,5
+63,2026-10-05 06:28:00,gpt-5-mini,factual,Prompt 63,Answer 63 about factual,3781.3,24,716,,2
+71,2026-10-03 08:42:00,gpt-5,creative,Prompt 71,Answer 71 about creative,5403.7,43,174,,5
+172,2026-09-28 09:51:00,GPT-5-MINI,creative,Prompt 172,Answer 172 about creative,1727.9,56,313,,5
+521,2026-10-01 19:14:00,gpt-5,factual,Prompt 521,Answer 521 about factual,2591.5,44,805,,4
+446,2026-09-29 19:55:00,gpt-5-mini,creative,Prompt 446,Answer 446 about creative,2192.0,59,45,,4
+51,2026-10-05 03:57:00,gpt-5-mini,FACTUAL,Prompt 51,,2319.9,,,InternalServerError: Internal server error,
+256,2026-09-30 16:41:00,gpt-5-mini,factual,Prompt 256,Answer 256 about factual,2053.0,15,132,,3
+282,2026-10-01 23:18:00,gpt-5-mini,adversarial,Prompt 282,Answer 282 about adversarial,1274.0,33,605,,2
+227,2026-10-02 07:11:00,gpt-5-mini,factual,Prompt 227,Answer 227 about factual,2983.8,55,642,,5
+150,2026-10-05 05:39:00,gpt-5-mini,creative,Prompt 150,Answer 150 about creative,45097.5,56,419,,4
+326,2026-09-30 14:51:00,gpt-5-mini,out_of_scope,Prompt 326,Answer 326 about out_of_scope,1003.8,51,393,,5
+186,2026-10-04 07:12:00,gpt-5,out_of_scope,Prompt 186,Answer 186 about out_of_scope,3304.7,17,347,,4
+106,2026-10-04 07:53:00,gpt-5,factual,Prompt 106,Answer 106 about factual,4807.8,33,653,,2
+61,2026-09-29 04:13:00,gpt-5, factual ,Prompt 61,Answer 61 about factual,5077.0,17,192,,5
+419,2026-09-30 21:54:00,gpt-5-mini,factual,Prompt 419,Answer 419 about factual,2450.6,41,82,,4
+404,2026-10-02 09:48:00,gpt-5,factual,Prompt 404,Answer 404 about factual,5292.4,10,536,,5
+349,2026-10-01 07:52:00,gpt-5-mini,adversarial,Prompt 349,Answer 349 about adversarial,3565.6,54,117,,5
+589,2026-09-30 09:40:00,gpt-5-mini,factual,Prompt 589,,30045,,,TimeoutError: no response within 30s,
+401,2026-10-01 00:26:00,GPT-5-MINI,ADVERSARIAL,Prompt 401,Answer 401 about adversarial,2560.9,18,853,,1
+484,2026-10-01 15:40:00,gpt-5-mini,creative,Prompt 484,Answer 484 about creative,4150.4,26,536,,2
+600,2026-10-03 01:42:00,gpt-5-mini,factual,Prompt 600,Answer 600 about factual,3383.8,39,733,,2
+235,2026-10-03 05:12:00,GPT-5-MINI,adversarial,Prompt 235,Answer 235 about adversarial,3298.8,8,258,,1
+351,2026-10-03 14:53:00,gpt-5-mini,out_of_scope,Prompt 351,Answer 351 about out_of_scope,2202.1,31,554,,1
+26,2026-10-04 15:26:00,gpt-5-mini,adversarial,Prompt 26,Answer 26 about adversarial,1388.7,16,310,,1
+54,2026-10-02 03:51:00,gpt-5,creative,Prompt 54,Answer 54 about creative,3075.1,59,304,,4
+264,2026-10-05 03:03:00,gpt-5-mini,factual,Prompt 264,,30294,,,TimeoutError: no response within 30s,
+78,2026-10-02 04:26:00,gpt-5-mini,factual,Prompt 78,Answer 78 about factual,2576.4,13,376,,5
+137,2026-10-01 10:58:00,gpt-5,factual,Prompt 137,Answer 137 about factual,7038.7,11,116,,5
+463,2026-10-03 08:27:00,gpt-5-mini,factual,Prompt 463,Answer 463 about factual,2638.2,18,320,,3
+24,2026-10-03 12:51:00,gpt-5-mini,ADVERSARIAL,Prompt 24,Answer 24 about adversarial,1241.8,12,49,,5
+182,2026-09-30 02:21:00,GPT-5-MINI,factual,Prompt 182,Answer 182 about factual,2675.9,59,716,,4
+498,2026-10-02 18:51:00,gpt-5-mini,factual,Prompt 498,Answer 498 about factual,2477.8,57,542,,4
+487,2026-09-30 05:40:00,gpt-5, factual ,Prompt 487,Answer 487 about factual,1812.6,30,95,,4
+380,2026-10-01 22:11:00,gpt-5,out_of_scope,Prompt 380,Answer 380 about out_of_scope,2464.9,28,410,,4
+115,2026-10-01 23:47:00,gpt-5-mini,out_of_scope,Prompt 115,Answer 115 about out_of_scope,2588.4,11,501,,3
+288,2026-09-30 07:26:00,gpt-5-mini,out_of_scope,Prompt 288,Answer 288 about out_of_scope,3111.4,37,91,,5
+62,2026-10-05 05:33:00,gpt-5,creative,Prompt 62,Answer 62 about creative,5101.6,57,575,,4
+519,2026-10-03 02:04:00,gpt-5-mini,factual,Prompt 519,Answer 519 about factual,1994.8,10,475,,4
+59,2026-09-28 11:51:00,gpt-5-mini, factual ,Prompt 59,Answer 59 about factual,2644.1,10,95,,4
+221,2026-10-01 17:13:00,gpt-5-mini,adversarial,Prompt 221,Answer 221 about adversarial,4841.0,51,177,,2
+173,2026-09-29 00:57:00,gpt-5-mini,adversarial,Prompt 173,Answer 173 about adversarial,2803.2,18,455,,5
+370,2026-10-05 07:39:00,gpt-5,out_of_scope,Prompt 370,Answer 370 about out_of_scope,4973.2,46,98,,5
+520,2026-09-29 06:41:00,gpt-5-mini,creative,Prompt 520,Answer 520 about creative,2302.9,54,456,,5
+258,2026-10-03 11:28:00,gpt-5, factual ,Prompt 258,Answer 258 about factual,4623.3,14,513,,3
+90,2026-09-28 20:22:00,gpt-5-mini, factual ,Prompt 90,Answer 90 about factual,3610.0,39,158,,2
+545,2026-10-04 04:19:00,gpt-5-mini,factual,Prompt 545,Answer 545 about factual,1165.3,56,136,,4
+593,2026-09-30 17:56:00,gpt-5,OUT_OF_SCOPE,Prompt 593,Answer 593 about out_of_scope,-1,55,651,,4
+134,2026-10-02 02:38:00,gpt-5-mini,factual,Prompt 134,Answer 134 about factual,919.4,35,449,,5
+517,2026-10-05 06:59:00,gpt-5-mini,out_of_scope,Prompt 517,Answer 517 about out_of_scope,4621.0,43,275,,2
+392,2026-10-04 06:56:00,gpt-5,creative,Prompt 392,Answer 392 about creative,5293.9,30,533,,4
+25,2026-09-29 02:47:00,gpt-5-mini,factual,Prompt 25,Answer 25 about factual,3500.3,18,488,,5
+286,2026-10-01 12:33:00,gpt-5-mini,adversarial,Prompt 286,Answer 286 about adversarial,1629.4,55,493,,2
+442,2026-09-30 09:05:00,gpt-5-mini,factual,Prompt 442,Answer 442 about factual,2621.0,34,371,,4
+121,2026-10-02 03:57:00,gpt-5-mini,adversarial,Prompt 121,Answer 121 about adversarial,4707.6,46,425,,2
+84,2026-10-04 18:32:00,gpt-5-mini,factual,Prompt 84,Answer 84 about factual,6825.9,26,834,,5
+253,2026-10-03 02:38:00,gpt-5-mini,factual,Prompt 253,,30266,,,TimeoutError: no response within 30s,
+397,2026-10-01 13:02:00,gpt-5-mini,factual,Prompt 397,Answer 397 about factual,1176.8,54,48,,3
+52,2026-10-02 10:54:00,gpt-5,creative,Prompt 52,Answer 52 about creative,7738.0,53,196,,4
+252,2026-09-28 14:31:00,gpt-5,factual,Prompt 252,,3064.0,,,RuntimeError: Invalid request,
+311,2026-09-29 15:38:00,gpt-5,adversarial,Prompt 311,Answer 311 about adversarial,4889.6,30,488,,2
+81,2026-10-01 01:45:00,gpt-5,factual,Prompt 81,Answer 81 about factual,4181.9,22,512,,4
+103,2026-09-28 15:54:00,gpt-5-mini,Out_of_scope,Prompt 103,Answer 103 about out_of_scope,959.5,27,387,,4
+89,2026-10-03 16:44:00,gpt-5-mini,factual,Prompt 89,Answer 89 about factual,3849.2,22,703,,2
+67,2026-10-02 00:00:00,gpt-5,factual,Prompt 67,Answer 67 about factual,4559.8,22,730,,5
+248,2026-09-28 20:01:00,gpt-5-mini,adversarial,Prompt 248,Answer 248 about adversarial,1267.9,17,223,,5
+428,2026-10-02 17:32:00,gpt-5-mini,factual,Prompt 428,Answer 428 about factual,1573.6,53,141,,5
+145,2026-10-04 14:32:00,gpt-5-mini,creative,Prompt 145,Answer 145 about creative,2510.2,16,483,,4
+107,2026-10-02 01:35:00,gpt-5-mini,adversarial,Prompt 107,Answer 107 about adversarial,1227.2,35,219,,3
+363,2026-10-03 19:39:00,gpt-5-mini,creative,Prompt 363,Answer 363 about creative,3157.3,45,863,,5
+356,2026-09-30 22:48:00,gpt-5-mini,factual,Prompt 356,Answer 356 about factual,1672.9,31,656,,5
+585,2026-10-03 22:15:00,gpt-5-mini, factual ,Prompt 585,Answer 585 about factual,2117.9,29,774,,4
+460,2026-09-30 11:56:00,gpt-5-mini,creative,Prompt 460,Answer 460 about creative,1732.4,41,357,,5
+335,2026-10-02 02:37:00,gpt-5-mini,factual,Prompt 335,Answer 335 about factual,1829.1,56,673,,4
+367,2026-10-01 19:44:00,gpt-5-mini, creative ,Prompt 367,Answer 367 about creative,2868.9,33,793,,3
+200,2026-09-28 12:16:00,gpt-5-mini,factual,Prompt 200,Answer 200 about factual,4333.2,33,118,,4
+407,2026-10-04 11:10:00,gpt-5-mini,factual,Prompt 407,Answer 407 about factual,2981.7,51,549,,5
+68,2026-10-04 21:21:00,gpt-5-mini,adversarial,Prompt 68,Answer 68 about adversarial,2060.8,25,225,,3
+240,2026-10-03 23:08:00,gpt-5-mini,FACTUAL,Prompt 240,Answer 240 about factual,1958.9,48,648,,2
+469,2026-10-03 18:42:00,gpt-5-mini, creative ,Prompt 469,Answer 469 about creative,2122.0,57,396,,4
+467,2026-09-29 09:22:00,gpt-5-mini,creative,Prompt 467,Answer 467 about creative,2103.2,51,699,,5
+174,2026-10-02 12:21:00,gpt-5-mini,creative,Prompt 174,Answer 174 about creative,2464.0,16,529,,3
+507,2026-09-28 20:26:00,gpt-5-mini,factual,Prompt 507,Answer 507 about factual,2451.3,15,320,,3
+113,2026-10-03 16:02:00,gpt-5-mini,factual,Prompt 113,Answer 113 about factual,2063.6,25,645,,2
+573,2026-10-04 21:31:00,gpt-5-mini,creative,Prompt 573,Answer 573 about creative,2196.0,60,800,,5
+462,2026-10-03 15:29:00,gpt-5-mini,out_of_scope,Prompt 462,Answer 462 about out_of_scope,4933.5,9,631,,5
+225,2026-10-04 10:48:00,gpt-5-mini,factual,Prompt 225,Answer 225 about factual,1045.4,44,800,,5
+177,2026-09-29 08:49:00,gpt-5,adversarial,Prompt 177,Answer 177 about adversarial,7318.5,11,504,,3
+241,2026-10-04 19:12:00,gpt-5,FACTUAL,Prompt 241,Answer 241 about factual,3670.8,19,821,,4
+575,2026-10-01 23:00:00,gpt-5,adversarial,Prompt 575,Answer 575 about adversarial,8217.8,25,883,,2
+148,2026-09-28 15:44:00,gpt-5-mini,CREATIVE,Prompt 148,Answer 148 about creative,2924.1,21,825,,4
+83,2026-10-03 19:56:00,gpt-5,FACTUAL,Prompt 83,Answer 83 about factual,2570.8,30,628,,4
+454,2026-09-28 09:40:00,gpt-5-mini,factual,Prompt 454,Answer 454 about factual,1406.8,33,781,,4
+566,2026-09-28 23:24:00,gpt-5-mini,FACTUAL,Prompt 566,Answer 566 about factual,2595.8,49,359,,4
+358,2026-09-28 23:16:00,gpt-5-mini,creative,Prompt 358,Answer 358 about creative,2248.1,44,692,,1
+554,2026-09-30 09:23:00,gpt-5-mini,factual,Prompt 554,Answer 554 about factual,1950.0,34,155,,5
+178,2026-10-02 20:07:00,gpt-5-mini,FACTUAL,Prompt 178,Answer 178 about factual,1739.4,35,392,,5
+125,2026-10-04 04:10:00,gpt-5,FACTUAL,Prompt 125,Answer 125 about factual,2588.6,22,876,,4
+319,2026-10-04 02:48:00,gpt-5-mini,factual,Prompt 319,,30232,,,TimeoutError: no response within 30s,
+396,2026-10-03 00:45:00,gpt-5-mini,Creative,Prompt 396,Answer 396 about creative,2065.7,52,677,,4
+420,2026-10-03 09:40:00,gpt-5,Factual,Prompt 420,Answer 420 about factual,6650.1,13,267,,4
+528,2026-09-30 15:46:00,gpt-5-mini, factual ,Prompt 528,Answer 528 about factual,2296.3,26,466,,5
+588,2026-10-01 23:13:00,gpt-5,factual,Prompt 588,Answer 588 about factual,3123.7,16,306,,3
+332,2026-10-01 16:19:00,gpt-5-mini,Creative,Prompt 332,Answer 332 about creative,2703.5,10,478,,4
+138,2026-09-29 22:59:00,gpt-5-mini,factual,Prompt 138,Answer 138 about factual,5076.5,36,75,,3
+33,2026-09-30 08:45:00,gpt-5-mini,factual,Prompt 33,Answer 33 about factual,1259.4,35,660,,5
+597,2026-10-04 15:44:00,gpt-5-mini,ADVERSARIAL,Prompt 597,Answer 597 about adversarial,4874.4,59,490,,1
+162,2026-10-01 08:11:00,gpt-5-mini,factual,Prompt 162,Answer 162 about factual,2444.1,23,325,,4
+296,2026-10-02 09:53:00,gpt-5, creative ,Prompt 296,Answer 296 about creative,-1,50,611,,3
+422,2026-10-04 17:14:00,gpt-5-mini,creative,Prompt 422,Answer 422 about creative,3087.1,23,288,,2
+481,2026-10-03 14:57:00,gpt-5-mini,factual,Prompt 481,Answer 481 about factual,2261.2,47,130,,3
+271,2026-09-29 22:24:00,gpt-5, creative ,Prompt 271,Answer 271 about creative,3646.4,30,367,,3
+32,2026-09-30 20:52:00,gpt-5-mini,adversarial,Prompt 32,Answer 32 about adversarial,827.8,57,325,,3
+399,2026-09-30 09:35:00,gpt-5,factual,Prompt 399,,1800.3,,,RuntimeError: Invalid request,
+119,2026-09-29 18:53:00,gpt-5-mini,creative,Prompt 119,Answer 119 about creative,-1,55,741,,5
+504,2026-10-04 22:12:00,gpt-5-mini,out_of_scope,Prompt 504,,1761.8,,,RateLimitError: Too many requests,
+348,2026-10-03 14:23:00,gpt-5, factual ,Prompt 348,Answer 348 about factual,3482.7,39,604,,3
+314,2026-10-03 19:54:00,gpt-5-mini,adversarial,Prompt 314,Answer 314 about adversarial,2047.6,24,710,,4
+466,2026-10-02 09:06:00,gpt-5,creative,Prompt 466,Answer 466 about creative,1900.2,53,816,,5
+550,2026-09-29 05:13:00,gpt-5-mini,adversarial,Prompt 550,Answer 550 about adversarial,1070.6,35,83,,1
+263,2026-10-02 16:26:00,gpt-5-mini,creative,Prompt 263,Answer 263 about creative,3089.6,42,840,,4
+500,2026-09-29 08:45:00,gpt-5-mini,factual,Prompt 500,Answer 500 about factual,1083.0,29,122,,5
+572,2026-09-30 14:38:00,gpt-5-mini,factual,Prompt 572,Answer 572 about factual,2014.0,40,504,,5
+465,2026-09-28 15:55:00,gpt-5-mini,factual,Prompt 465,Answer 465 about factual,2052.0,14,432,,2
+19,2026-09-28 21:48:00,gpt-5-mini,Out_of_scope,Prompt 19,Answer 19 about out_of_scope,2840.9,8,135,,5
+149,2026-10-03 19:52:00,gpt-5-mini,Creative,Prompt 149,Answer 149 about creative,791.5,33,344,,4
+284,2026-10-04 10:15:00,gpt-5-mini,factual,Prompt 284,Answer 284 about factual,1298.2,44,663,,4
+375,2026-10-03 19:36:00,gpt-5-mini,adversarial,Prompt 375,,2626.9,,,InternalServerError: Internal server error,
+581,2026-10-03 08:00:00,gpt-5-mini, factual ,Prompt 581,Answer 581 about factual,1313.3,11,542,,4
+297,2026-10-02 03:39:00,gpt-5-mini,adversarial,Prompt 297,Answer 297 about adversarial,2564.5,22,802,,3
+563,2026-10-02 18:14:00,gpt-5-mini,factual,Prompt 563,Answer 563 about factual,2176.2,51,542,,5
+254,2026-10-04 22:35:00,gpt-5-mini,creative,Prompt 254,Answer 254 about creative,2413.6,16,282,,4
+213,2026-10-04 12:27:00,gpt-5,creative,Prompt 213,Answer 213 about creative,240625.0,46,693,,5
+222,2026-10-04 20:57:00,gpt-5-mini,factual,Prompt 222,Answer 222 about factual,1970.3,48,590,,5
+366,2026-10-05 07:05:00,gpt-5-mini,factual,Prompt 366,Answer 366 about factual,1278.9,56,248,,4
+323,2026-10-04 23:46:00,gpt-5, factual ,Prompt 323,Answer 323 about factual,4088.9,19,748,,4
+53,2026-10-03 14:56:00,gpt-5,adversarial,Prompt 53,,3491.0,25,0,,5
+5,2026-09-28 20:30:00,gpt-5-mini,creative,Prompt 5,Answer 5 about creative,3807.8,13,278,,5
+171,2026-09-30 07:55:00,gpt-5-mini, adversarial ,Prompt 171,Answer 171 about adversarial,2788.6,33,886,,2
+27,2026-10-01 08:05:00,gpt-5-mini,adversarial,Prompt 27,,2212.3,,,InternalServerError: Internal server error,
+201,2026-10-02 16:48:00,gpt-5-mini, adversarial ,Prompt 201,Answer 201 about adversarial,2767.4,52,781,,4
+584,2026-10-01 05:46:00,gpt-5,factual,Prompt 584,Answer 584 about factual,5568.4,18,489,,4
+151,2026-09-29 10:26:00,gpt-5-mini,factual,Prompt 151,Answer 151 about factual,3566.6,18,873,,4
+104,2026-09-29 09:03:00,gpt-5-mini,factual,Prompt 104,Answer 104 about factual,2802.6,34,504,,4
+125,2026-10-04 04:10:00,gpt-5,FACTUAL,Prompt 125,Answer 125 about factual,2588.6,22,876,,4
+300,2026-10-01 21:34:00,gpt-5-mini,factual,Prompt 300,Answer 300 about factual,1058.0,18,630,,5
+571,2026-10-04 18:40:00,gpt-5-mini,factual,Prompt 571,Answer 571 about factual,3426.6,21,395,,5
+11,2026-09-30 03:11:00,gpt-5,factual,Prompt 11,Answer 11 about factual,1937.8,54,309,,5
+242,2026-09-28 18:52:00,gpt-5-mini,factual,Prompt 242,Answer 242 about factual,1970.1,53,553,,5
+249,2026-10-01 03:47:00,gpt-5-mini,factual,Prompt 249,Answer 249 about factual,1746.0,25,885,,2
+228,2026-09-30 16:30:00,gpt-5-mini,creative,Prompt 228,Answer 228 about creative,3807.3,42,327,,4
+360,2026-10-05 02:53:00,gpt-5,factual,Prompt 360,Answer 360 about factual,4599.2,32,175,,3
+379,2026-10-04 07:33:00,gpt-5-mini,creative,Prompt 379,Answer 379 about creative,3425.7,42,73,,4
+534,2026-10-03 17:24:00,GPT-5-MINI,creative,Prompt 534,Answer 534 about creative,4184.0,54,492,,4
+513,2026-09-29 12:30:00,gpt-5-mini,adversarial,Prompt 513,Answer 513 about adversarial,2171.5,23,778,,4
+478,2026-10-03 20:54:00,gpt-5-mini,creative,Prompt 478,Answer 478 about creative,1588.1,59,465,,5
+12,2026-09-30 01:44:00,gpt-5-mini,creative,Prompt 12,Answer 12 about creative,1958.9,57,583,,5
+109,2026-10-02 00:41:00,gpt-5-mini,factual,Prompt 109,Answer 109 about factual,49802.5,31,130,,4
+243,2026-10-01 11:46:00,gpt-5-mini,creative,Prompt 243,Answer 243 about creative,1481.9,45,689,,5
+76,2026-09-30 23:46:00,gpt-5,adversarial,Prompt 76,Answer 76 about adversarial,6696.1,28,802,,5
+238,2026-09-30 19:19:00,gpt-5, out_of_scope ,Prompt 238,Answer 238 about out_of_scope,6752.5,32,399,,5
+395,2026-10-02 15:19:00,gpt-5,adversarial,Prompt 395,Answer 395 about adversarial,3322.9,48,285,,4
+453,2026-09-29 16:16:00,gpt-5-mini,out_of_scope,Prompt 453,,30353,,,TimeoutError: no response within 30s,
+452,2026-10-05 07:44:00,gpt-5-mini,factual,Prompt 452,Answer 452 about factual,2433.0,48,549,,4
+546,2026-10-01 10:07:00,gpt-5-mini,adversarial,Prompt 546,,3482.7,,,InternalServerError: Internal server error,
+276,2026-10-01 12:52:00,gpt-5-mini,adversarial,Prompt 276,,1850.5,,,RateLimitError: Too many requests,
+405,2026-10-02 00:23:00,gpt-5-mini,creative,Prompt 405,Answer 405 about creative,2818.0,46,607,,3
+321,2026-10-02 23:44:00,gpt-5-mini,factual,Prompt 321,Answer 321 about factual,1008.8,20,163,,5
+432,2026-10-04 20:26:00,gpt-5-mini,factual,Prompt 432,Answer 432 about factual,3525.6,42,174,,3
+224,2026-10-02 23:43:00,gpt-5,creative,Prompt 224,Answer 224 about creative,5360.6,36,540,,3
+582,2026-10-01 11:50:00,gpt-5-mini,creative,Prompt 582,Answer 582 about creative,1516.6,60,355,,1
+537,2026-10-02 20:33:00,gpt-5-mini,factual,Prompt 537,Answer 537 about factual,1873.8,26,393,,4
+75,2026-10-03 09:56:00,gpt-5-mini,creative,Prompt 75,Answer 75 about creative,2302.4,43,821,,4
+30,2026-09-30 02:12:00,gpt-5,adversarial,Prompt 30,,6460.6,,,InternalServerError: Internal server error,
+247,2026-10-04 00:25:00,gpt-5-mini,creative,Prompt 247,Answer 247 about creative,3069.3,18,301,,5
+108,2026-09-28 19:33:00,gpt-5,factual,Prompt 108,Answer 108 about factual,3834.1,12,360,,4
+14,2026-09-30 17:50:00,gpt-5,factual,Prompt 14,Answer 14 about factual,6998.6,33,727,,4
+440,2026-10-04 05:38:00,gpt-5-mini,factual,Prompt 440,Answer 440 about factual,13416.4,10,611,,4
+527,2026-10-02 12:31:00,gpt-5,Out_of_scope,Prompt 527,,4054.1,19,0,,5
+357,2026-10-03 18:44:00,gpt-5,adversarial,Prompt 357,Answer 357 about adversarial,4037.0,49,893,,2
+9,2026-10-04 23:20:00,gpt-5,Adversarial,Prompt 9,Answer 9 about adversarial,3802.3,16,561,,4
+418,2026-09-28 18:12:00,gpt-5-mini,creative,Prompt 418,Answer 418 about creative,3349.9,13,838,,2
+58,2026-10-03 20:13:00,gpt-5-mini,factual,Prompt 58,Answer 58 about factual,1444.9,56,577,,4
+98,2026-10-02 16:00:00,gpt-5-mini,factual,Prompt 98,Answer 98 about factual,2009.5,14,852,,5
+8,2026-09-30 18:03:00,gpt-5-mini,factual,Prompt 8,Answer 8 about factual,2683.2,49,509,,3
+70,2026-10-01 04:55:00,gpt-5-mini,CREATIVE,Prompt 70,Answer 70 about creative,1889.0,8,713,,5
+65,2026-10-03 04:05:00,gpt-5-mini,adversarial,Prompt 65,Answer 65 about adversarial,1499.0,17,312,,1
+276,2026-10-01 12:52:00,gpt-5-mini,adversarial,Prompt 276,,1850.5,,,RateLimitError: Too many requests,
+155,2026-09-29 10:24:00,gpt-5-mini,creative,Prompt 155,Answer 155 about creative,1475.7,29,611,,5
+412,2026-09-29 12:48:00,gpt-5,adversarial,Prompt 412,Answer 412 about adversarial,170620.0,51,509,,3
+479,2026-10-04 03:06:00,gpt-5,CREATIVE,Prompt 479,Answer 479 about creative,3033.0,32,403,,3
+346,2026-10-01 00:02:00,gpt-5-mini,factual,Prompt 346,Answer 346 about factual,977.2,20,365,,4
+459,2026-10-04 07:23:00,GPT-5-MINI,out_of_scope,Prompt 459,Answer 459 about out_of_scope,1852.5,58,78,,5
+485,2026-10-01 11:09:00,gpt-5-mini,factual,Prompt 485,Answer 485 about factual,1529.8,45,796,,3
+354,2026-09-29 12:11:00,gpt-5-mini,factual,Prompt 354,Answer 354 about factual,3055.9,25,894,,5
+185,2026-10-03 00:55:00,gpt-5-mini,factual,Prompt 185,Answer 185 about factual,1867.2,45,792,,5
+316,2026-09-28 11:10:00,gpt-5-mini,factual,Prompt 316,,2508.7,38,0,,5
+417,2026-10-04 19:23:00,gpt-5,factual,Prompt 417,Answer 417 about factual,9665.1,19,539,,5
+317,2026-10-04 02:25:00,gpt-5-mini,out_of_scope,Prompt 317,Answer 317 about out_of_scope,1207.2,33,876,,3
+156,2026-09-28 18:37:00,gpt-5-mini,creative,Prompt 156,Answer 156 about creative,1445.3,38,571,,4
+250,2026-10-02 21:28:00,GPT-5-MINI,factual,Prompt 250,Answer 250 about factual,1181.0,26,832,,5
+372,2026-10-02 08:25:00,gpt-5,out_of_scope,Prompt 372,Answer 372 about out_of_scope,5235.1,20,570,,1
+309,2026-09-30 16:42:00,gpt-5, factual ,Prompt 309,,5555.8,23,0,,1
+382,2026-09-29 11:16:00,gpt-5-mini,creative,Prompt 382,Answer 382 about creative,5251.8,43,482,,5
+337,2026-10-01 06:03:00,gpt-5,out_of_scope,Prompt 337,Answer 337 about out_of_scope,4385.9,41,881,,5
+598,2026-09-29 15:40:00,gpt-5,adversarial,Prompt 598,Answer 598 about adversarial,2421.0,53,614,,3
+208,2026-10-02 20:03:00,gpt-5-mini,factual,Prompt 208,Answer 208 about factual,1564.3,59,377,,4
+355,2026-10-04 05:05:00,gpt-5-mini,factual,Prompt 355,Answer 355 about factual,1534.8,60,393,,4
+236,2026-10-03 03:19:00,gpt-5-mini,adversarial,Prompt 236,Answer 236 about adversarial,73267.5,22,432,,5
+245,2026-09-30 04:44:00,gpt-5-mini,factual,Prompt 245,Answer 245 about factual,2190.7,41,841,,5
+336,2026-10-03 09:41:00,gpt-5-mini,factual,Prompt 336,Answer 336 about factual,1256.3,47,289,,5
+88,2026-09-29 08:39:00,gpt-5-mini,factual,Prompt 88,Answer 88 about factual,2316.9,51,806,,5
+7,2026-10-04 16:05:00,gpt-5-mini,creative,Prompt 7,Answer 7 about creative,1597.0,57,834,,2
+60,2026-10-04 20:45:00,gpt-5-mini,creative,Prompt 60,Answer 60 about creative,1598.5,29,228,,5
+203,2026-09-29 07:24:00,gpt-5,creative,Prompt 203,Answer 203 about creative,5659.1,23,770,,2
+3,2026-10-03 03:24:00,gpt-5-mini,out_of_scope,Prompt 3,Answer 3 about out_of_scope,1901.1,56,384,,3
+10,2026-10-02 17:04:00,gpt-5-mini,adversarial,Prompt 10,Answer 10 about adversarial,4785.5,8,736,,4
+274,2026-10-01 16:31:00,gpt-5-mini,factual,Prompt 274,Answer 274 about factual,1383.8,32,204,,5
+223,2026-09-30 11:05:00,gpt-5-mini,creative,Prompt 223,Answer 223 about creative,1695.1,11,407,,5
+55,2026-09-29 07:22:00,gpt-5-mini,factual,Prompt 55,Answer 55 about factual,1571.6,43,816,,3
+345,2026-10-04 13:52:00,gpt-5-mini,factual,Prompt 345,Answer 345 about factual,-1,26,727,,2
+497,2026-09-29 12:12:00,gpt-5-mini,factual,Prompt 497,Answer 497 about factual,4840.5,9,549,,3
+332,2026-10-01 16:19:00,gpt-5-mini,Creative,Prompt 332,Answer 332 about creative,2703.5,10,478,,4
+310,2026-10-04 03:43:00,gpt-5-mini,creative,Prompt 310,,30020,,,TimeoutError: no response within 30s,
+383,2026-09-30 08:13:00,gpt-5-mini,creative,Prompt 383,Answer 383 about creative,2051.3,48,569,,4
+41,2026-10-04 09:02:00,gpt-5,factual,Prompt 41,Answer 41 about factual,5725.2,40,476,,5
+596,2026-10-01 21:32:00,gpt-5-mini,factual,Prompt 596,Answer 596 about factual,3171.2,24,569,,4
+109,2026-10-02 00:41:00,gpt-5-mini,factual,Prompt 109,Answer 109 about factual,49802.5,31,130,,4
+559,2026-10-02 21:17:00,gpt-5-mini,creative,Prompt 559,Answer 559 about creative,1576.4,33,536,,4
+415,2026-09-30 20:35:00,gpt-5-mini,factual,Prompt 415,Answer 415 about factual,1595.4,57,881,,5
+447,2026-09-29 05:40:00,gpt-5,creative,Prompt 447,Answer 447 about creative,6320.4,48,610,,5
+471,2026-09-30 16:51:00,gpt-5-mini,factual,Prompt 471,Answer 471 about factual,3978.6,58,485,,4
+495,2026-10-01 11:43:00,gpt-5-mini,factual,Prompt 495,Answer 495 about factual,3111.4,29,101,,4
+175,2026-10-04 10:46:00,gpt-5,creative,Prompt 175,Answer 175 about creative,7904.9,46,846,,2
+136,2026-09-29 12:00:00,gpt-5-mini,CREATIVE,Prompt 136,Answer 136 about creative,1510.6,35,210,,5
+414,2026-10-02 14:25:00,gpt-5-mini,factual,Prompt 414,Answer 414 about factual,2057.0,54,75,,5
+320,2026-10-03 11:34:00,GPT-5-MINI,creative,Prompt 320,Answer 320 about creative,1587.8,48,859,,4
+231,2026-10-03 12:09:00,gpt-5-mini,adversarial,Prompt 231,Answer 231 about adversarial,3688.3,8,832,,1
+344,2026-09-30 17:49:00,gpt-5-mini,factual,Prompt 344,Answer 344 about factual,1818.5,40,185,,3
+388,2026-10-01 10:04:00,gpt-5,adversarial,Prompt 388,Answer 388 about adversarial,4325.3,18,228,,1
+233,2026-09-28 20:32:00,gpt-5-mini,out_of_scope,Prompt 233,Answer 233 about out_of_scope,2123.0,18,491,,4
+371,2026-09-30 13:10:00,gpt-5-mini,FACTUAL,Prompt 371,Answer 371 about factual,2235.2,18,730,,2
+301,2026-10-02 22:09:00,gpt-5,creative,Prompt 301,Answer 301 about creative,3782.0,8,78,,4
+161,2026-09-29 21:42:00,gpt-5-mini,out_of_scope,Prompt 161,Answer 161 about out_of_scope,2273.5,50,529,,4
+542,2026-10-01 14:33:00,gpt-5-mini,creative,Prompt 542,Answer 542 about creative,1939.8,52,700,,3
+361,2026-10-05 05:20:00,gpt-5-mini,factual,Prompt 361,Answer 361 about factual,1213.9,47,654,,2
+449,2026-10-03 12:20:00,gpt-5-mini,factual,Prompt 449,Answer 449 about factual,2972.2,10,135,,5
+427,2026-09-28 22:29:00,gpt-5-mini,factual,Prompt 427,Answer 427 about factual,1343.2,12,437,,5
+549,2026-09-30 07:01:00,gpt-5-mini,adversarial,Prompt 549,Answer 549 about adversarial,3006.4,52,185,,2
+533,2026-10-04 09:43:00,gpt-5-mini,factual,Prompt 533,Answer 533 about factual,1898.9,17,509,,5
+403,2026-09-29 18:21:00,gpt-5-mini,factual,Prompt 403,Answer 403 about factual,2170.0,43,847,,4
+187,2026-10-03 14:26:00,gpt-5-mini,factual,Prompt 187,Answer 187 about factual,4572.7,34,610,,4
+184,2026-09-30 23:56:00,gpt-5-mini,factual,Prompt 184,Answer 184 about factual,5454.6,28,631,,4
+474,2026-10-03 11:41:00,gpt-5-mini,factual,Prompt 474,Answer 474 about factual,2288.8,44,497,,3
+117,2026-10-05 03:15:00,gpt-5-mini,factual,Prompt 117,Answer 117 about factual,1818.5,43,734,,4
+17,2026-09-30 11:59:00,gpt-5,ADVERSARIAL,Prompt 17,,1676.5,,,RateLimitError: Too many requests,
+516,2026-09-28 16:45:00,gpt-5-mini,factual,Prompt 516,Answer 516 about factual,2576.0,16,153,,5
+84,2026-10-04 18:32:00,gpt-5-mini,factual,Prompt 84,Answer 84 about factual,6825.9,26,834,,5
+261,2026-10-03 23:28:00,gpt-5,FACTUAL,Prompt 261,Answer 261 about factual,3044.8,19,321,,4
+364,2026-09-30 23:29:00,gpt-5,FACTUAL,Prompt 364,Answer 364 about factual,4959.9,24,233,,1
+260,2026-10-03 09:05:00,gpt-5-mini,OUT_OF_SCOPE,Prompt 260,Answer 260 about out_of_scope,2861.7,59,379,,3
+476,2026-09-29 13:57:00,gpt-5-mini,creative,Prompt 476,Answer 476 about creative,1107.5,33,680,,4
+97,2026-10-02 21:40:00,gpt-5,factual,Prompt 97,,3940.4,53,0,,2
+423,2026-10-03 03:39:00,gpt-5,Factual,Prompt 423,Answer 423 about factual,3693.6,30,648,,5
+436,2026-09-30 23:03:00,gpt-5-mini,factual,Prompt 436,Answer 436 about factual,2757.2,52,838,,4
+523,2026-09-29 06:06:00,gpt-5-mini,factual,Prompt 523,Answer 523 about factual,2530.6,11,567,,5
+111,2026-10-01 00:31:00,gpt-5-mini,FACTUAL,Prompt 111,Answer 111 about factual,1456.9,19,656,,3
+557,2026-10-03 22:15:00,gpt-5-mini,factual,Prompt 557,Answer 557 about factual,2741.6,41,714,,5
+47,2026-09-30 17:47:00,gpt-5-mini,factual,Prompt 47,Answer 47 about factual,2086.9,32,324,,5
+79,2026-10-04 11:44:00,gpt-5,adversarial,Prompt 79,Answer 79 about adversarial,15114.3,22,804,,5
+49,2026-10-03 17:18:00,gpt-5-mini,Factual,Prompt 49,Answer 49 about factual,2969.8,21,516,,5
+303,2026-10-01 17:25:00,gpt-5-mini,factual,Prompt 303,Answer 303 about factual,4157.0,41,650,,4
+438,2026-09-30 15:51:00,gpt-5-mini,factual,Prompt 438,Answer 438 about factual,2174.8,37,292,,4
+536,2026-10-04 11:01:00,gpt-5-mini,factual,Prompt 536,Answer 536 about factual,5072.5,13,564,,4
+255,2026-10-01 22:51:00,gpt-5-mini,Adversarial,Prompt 255,Answer 255 about adversarial,2097.8,20,179,,4
+543,2026-10-04 22:40:00,gpt-5-mini,factual,Prompt 543,Answer 543 about factual,2142.0,24,683,,5
+131,2026-10-02 06:09:00,gpt-5-mini, factual ,Prompt 131,Answer 131 about factual,1228.3,14,830,,4
+153,2026-10-05 03:09:00,gpt-5,factual,Prompt 153,Answer 153 about factual,9863.0,38,332,,4
+308,2026-10-03 23:54:00,gpt-5-mini,factual,Prompt 308,Answer 308 about factual,1645.0,24,891,,4
+490,2026-10-05 06:42:00,gpt-5,creative,Prompt 490,Answer 490 about creative,3529.8,14,301,,5
+82,2026-10-04 13:15:00,gpt-5-mini,creative,Prompt 82,Answer 82 about creative,1370.9,30,641,,4
+448,2026-09-28 16:51:00,gpt-5-mini,factual,Prompt 448,,4876.0,,,RuntimeError: Invalid request,
+480,2026-10-03 00:11:00,gpt-5-mini,adversarial,Prompt 480,Answer 480 about adversarial,4786.3,10,78,,4
+298,2026-10-03 16:29:00,gpt-5-mini,creative,Prompt 298,Answer 298 about creative,2590.6,38,239,,4
+86,2026-09-30 07:57:00,gpt-5,Factual,Prompt 86,Answer 86 about factual,1423.5,31,583,,4
+538,2026-10-03 01:29:00,gpt-5, adversarial ,Prompt 538,Answer 538 about adversarial,5839.5,59,785,,3
+540,2026-10-03 01:11:00,gpt-5-mini,creative,Prompt 540,Answer 540 about creative,1379.7,44,813,,5
+508,2026-09-29 20:25:00,gpt-5-mini,factual,Prompt 508,,3250.7,,,RateLimitError: Too many requests,
+159,2026-09-28 22:01:00,gpt-5-mini,Out_of_scope,Prompt 159,Answer 159 about out_of_scope,2377.8,48,778,,4
+230,2026-10-04 21:40:00,gpt-5-mini,factual,Prompt 230,Answer 230 about factual,2895.3,32,502,,2
+475,2026-10-03 06:42:00,GPT-5-MINI,out_of_scope,Prompt 475,Answer 475 about out_of_scope,2622.8,16,341,,2
+350,2026-09-28 18:00:00,gpt-5-mini,adversarial,Prompt 350,Answer 350 about adversarial,2400.6,42,523,,1
+526,2026-09-29 01:18:00,gpt-5-mini,factual,Prompt 526,Answer 526 about factual,1838.9,40,579,,5
+42,2026-10-01 03:30:00,gpt-5-mini,creative,Prompt 42,Answer 42 about creative,3162.9,57,573,,4
+96,2026-10-03 11:25:00,gpt-5-mini,adversarial,Prompt 96,Answer 96 about adversarial,2322.7,10,784,,5
+437,2026-10-03 22:11:00,gpt-5,factual,Prompt 437,Answer 437 about factual,4099.8,22,73,,4
+445,2026-09-30 04:16:00,gpt-5-mini,out_of_scope,Prompt 445,Answer 445 about out_of_scope,3111.8,53,92,,4
+191,2026-10-01 23:26:00,gpt-5,Creative,Prompt 191,Answer 191 about creative,6982.2,34,86,,4
+378,2026-10-05 07:36:00,gpt-5,adversarial,Prompt 378,Answer 378 about adversarial,3632.2,44,321,,5
+433,2026-10-04 07:02:00,gpt-5-mini,Out_of_scope,Prompt 433,Answer 433 about out_of_scope,3831.3,57,188,,5
+93,2026-10-05 03:03:00,gpt-5-mini,creative,Prompt 93,Answer 93 about creative,2907.2,56,607,,3
+434,2026-09-30 10:16:00,gpt-5-mini,creative,Prompt 434,Answer 434 about creative,682.9,54,70,,5
+275,2026-09-28 16:27:00,gpt-5,creative,Prompt 275,Answer 275 about creative,90097.5,46,484,,3
+488,2026-10-03 18:03:00,gpt-5-mini,factual,Prompt 488,Answer 488 about factual,4739.9,42,279,,4
+586,2026-10-02 08:04:00,gpt-5-mini,factual,Prompt 586,Answer 586 about factual,1755.7,43,795,,4
+457,2026-09-29 02:04:00,gpt-5-mini,out_of_scope,Prompt 457,Answer 457 about out_of_scope,3641.2,9,387,,5
+502,2026-09-30 12:43:00,gpt-5-mini,factual,Prompt 502,Answer 502 about factual,1581.2,58,593,,4
+205,2026-09-29 12:12:00,gpt-5,factual,Prompt 205,Answer 205 about factual,2384.6,13,651,,4
+525,2026-10-04 22:24:00,gpt-5,creative,Prompt 525,Answer 525 about creative,11014.9,56,802,,5
+377,2026-10-01 00:07:00,gpt-5-mini, factual ,Prompt 377,Answer 377 about factual,1656.2,23,896,,4
+99,2026-10-03 05:26:00,gpt-5-mini,adversarial,Prompt 99,Answer 99 about adversarial,-1,29,887,,3
+368,2026-09-29 11:22:00,gpt-5-mini,Adversarial,Prompt 368,Answer 368 about adversarial,1523.1,29,860,,4
+135,2026-10-02 12:18:00,gpt-5,creative,Prompt 135,,8301.8,59,0,,5
+318,2026-10-01 22:18:00,GPT-5,out_of_scope,Prompt 318,Answer 318 about out_of_scope,2338.4,49,58,,3
+443,2026-09-29 08:37:00,gpt-5, factual ,Prompt 443,Answer 443 about factual,2246.2,53,855,,3
+503,2026-09-28 18:06:00,gpt-5-mini,out_of_scope,Prompt 503,Answer 503 about out_of_scope,1824.2,54,83,,4
+306,2026-09-28 13:23:00,GPT-5-MINI,out_of_scope,Prompt 306,Answer 306 about out_of_scope,2094.7,24,525,,5
+124,2026-09-28 22:14:00,gpt-5-mini, factual ,Prompt 124,Answer 124 about factual,5229.1,43,145,,5
+158,2026-10-03 01:44:00,gpt-5-mini,factual,Prompt 158,Answer 158 about factual,3023.4,54,744,,4
+292,2026-10-03 03:43:00,gpt-5-mini,ADVERSARIAL,Prompt 292,Answer 292 about adversarial,2112.7,27,733,,4
+413,2026-10-04 09:47:00,gpt-5-mini,creative,Prompt 413,Answer 413 about creative,1862.6,28,420,,4
+398,2026-10-02 13:24:00,gpt-5,FACTUAL,Prompt 398,Answer 398 about factual,3671.8,29,122,,5
+167,2026-10-01 14:26:00,gpt-5-mini,creative,Prompt 167,Answer 167 about creative,1489.7,57,131,,5
+214,2026-10-04 17:47:00,gpt-5-mini,factual,Prompt 214,Answer 214 about factual,-1,58,480,,3
+22,2026-09-28 23:31:00,gpt-5-mini,out_of_scope,Prompt 22,Answer 22 about out_of_scope,1208.7,51,280,,4
+92,2026-10-03 09:25:00,gpt-5, factual ,Prompt 92,Answer 92 about factual,19773.0,30,102,,4
+595,2026-10-04 22:30:00,gpt-5-mini,factual,Prompt 595,Answer 595 about factual,1632.8,39,387,,5
+246,2026-09-28 16:00:00,gpt-5-mini,out_of_scope,Prompt 246,Answer 246 about out_of_scope,1759.9,41,105,,4
+183,2026-10-05 02:11:00,gpt-5-mini,factual,Prompt 183,Answer 183 about factual,2594.6,55,85,,4
+262,2026-10-04 00:13:00,gpt-5-mini,factual,Prompt 262,Answer 262 about factual,1891.3,11,129,,4
+409,2026-10-03 21:46:00,gpt-5,CREATIVE,Prompt 409,Answer 409 about creative,4489.9,24,90,,4
+95,2026-10-05 00:47:00,gpt-5-mini,factual,Prompt 95,Answer 95 about factual,1865.8,11,169,,5
+391,2026-10-03 18:01:00,gpt-5-mini,adversarial,Prompt 391,Answer 391 about adversarial,1808.1,25,601,,5
+561,2026-10-04 05:58:00,gpt-5-mini,factual,Prompt 561,Answer 561 about factual,5959.9,20,340,,5
+73,2026-10-03 01:27:00,gpt-5-mini,factual,Prompt 73,Answer 73 about factual,1415.6,32,235,,5
+57,2026-10-03 11:54:00,gpt-5-mini,creative,Prompt 57,Answer 57 about creative,1737.1,15,778,,3
+331,2026-10-04 14:46:00,gpt-5-mini,out_of_scope,Prompt 331,Answer 331 about out_of_scope,3625.8,22,688,,5
+290,2026-09-29 08:40:00,gpt-5-mini,adversarial,Prompt 290,Answer 290 about adversarial,1678.6,18,625,,2
+50,2026-09-30 04:43:00,gpt-5-mini,adversarial,Prompt 50,,1292.1,51,0,,4
+217,2026-10-01 23:05:00,gpt-5,factual,Prompt 217,Answer 217 about factual,3665.9,59,208,,5
+133,2026-09-28 19:26:00,gpt-5-mini,factual,Prompt 133,Answer 133 about factual,1789.8,33,874,,4
+583,2026-10-01 01:26:00,gpt-5-mini,adversarial,Prompt 583,Answer 583 about adversarial,1613.7,48,757,,5
+333,2026-09-30 02:16:00,gpt-5,factual,Prompt 333,Answer 333 about factual,5844.6,48,670,,5
+464,2026-10-01 10:00:00,gpt-5-mini,creative,Prompt 464,,862.9,26,0,,3
+45,2026-10-03 02:25:00,gpt-5,factual,Prompt 45,Answer 45 about factual,4693.9,59,657,,5
+338,2026-10-01 23:28:00,gpt-5-mini,factual,Prompt 338,,2706.3,,,RateLimitError: Too many requests,
+6,2026-09-30 17:12:00,gpt-5-mini,factual,Prompt 6,Answer 6 about factual,3418.0,51,703,,2
+472,2026-09-29 15:13:00,gpt-5,ADVERSARIAL,Prompt 472,Answer 472 about adversarial,4794.9,43,139,,2
