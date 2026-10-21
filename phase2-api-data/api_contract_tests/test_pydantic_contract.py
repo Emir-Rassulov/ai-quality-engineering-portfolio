@@ -1,4 +1,4 @@
-import httpx
+import httpx2
 import pytest
 from pydantic import ValidationError
 
@@ -7,7 +7,7 @@ from models import BasicAuthResponse
 
 @pytest.mark.network
 def test_live_response_matches_the_contract(base_url):
-    response = httpx.get(
+    response = httpx2.get(
         f"{base_url}/basic-auth/user/pass", auth=("user", "pass"), timeout=10.0
     )
 
