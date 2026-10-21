@@ -23,6 +23,7 @@ This repository contains a series of practical QA engineering exercises covering
 - provider-specific error handling
 - SQL and Pandas data analysis of LLM logs
 - statistical comparison with stated uncertainty
+- machine-learning evaluation: baselines, data leakage, cost-based thresholds
 
 The focus is not only on writing tests, but also on building **reliable, maintainable, and testable engineering tools**, and on making sure every test is able to fail.
 
@@ -66,6 +67,17 @@ ai-quality-engineering-portfolio/
 │   ├── chat_logs.csv              612-row synthetic chat log (messy on purpose)
 │   ├── REPORT.md                  one-page report for a product owner
 │   └── DATA_QUALITY.md            every data problem found, with numbers
+│
+├── phase3-ml/
+│   ├── tests/                     49 tests: data, metrics, leakage guard, pipeline
+│   ├── ml_data.py                 data, target, features and split (one definition)
+│   ├── ml_model.py                the model pipeline and the leakage guard
+│   ├── baseline.py                dummy baseline
+│   ├── leakage_demo.py            leaky vs honest features
+│   ├── evaluate.py                threshold, cross-validation, bootstrap, verdict
+│   ├── ML_NOTES.md                concepts and experiment results
+│   ├── REPORT.md                  one-page report for a product owner
+│   └── BREAK_IT.md                code broken on purpose, tests that caught it
 │
 ├── pytest.ini
 └── .gitignore
@@ -196,6 +208,31 @@ Phase 2 shifts from "does the tool work?" to "can the data and the numbers be tr
 
 ---
 
+# Phase 3 — Machine Learning Evaluation for QA
+
+Phase 3 asks: "Can a model predict LLM failures before they happen, and can we trust the answer?" It uses the cleaned Phase 2 log (592 rows). A **real failure** is a logged error or a silent failure: 48 of 592 (8.11%).
+
+- **Baseline first:** a dummy model that always predicts "success" scores 91.89% accuracy and finds none of the failures. Accuracy is the wrong measure when only 8% of calls fail.
+- **Leakage experiment:** a model given post-call fields (response length, judge score, latency, output tokens) looks perfect, because those fields reveal the outcome. A model limited to features known before the call does not.
+- **Honest evaluation:** seeded, stratified split; preprocessing inside one pipeline; decision threshold chosen on train-only cross-validation with a stated cost assumption (a missed failure costs 10 false alarms); the test set is used once. Results include 5-fold cross-validation and a bootstrap interval.
+- **Verdict computed from the numbers**, not written by hand: the model is not production-ready.
+- **49 tests**, including a guard that fails if a post-call feature enters the model, and [`BREAK_IT.md`](phase3-ml/BREAK_IT.md), which records code broken on purpose and the tests that caught it.
+- Concepts and results: [`ML_NOTES.md`](phase3-ml/ML_NOTES.md). Report for a non-technical reader: [`REPORT.md`](phase3-ml/REPORT.md).
+
+### Key findings
+
+| Finding | Number |
+| --- | --- |
+| Dummy baseline (always "success") | 91.89% accuracy, 0 of 12 test failures found |
+| Model with post-call features (leakage) | precision 1.000, recall 1.000 (not real) |
+| Model with pre-call features, 5-fold cross-validation | precision 0.096, recall 0.396 |
+| Same model on the test set (threshold 0.60) | precision 0.095, recall 0.167 (2 of 12 failures) |
+| Recall 95% bootstrap interval | 0.00 to 0.43, resting on 12 failures |
+| Cost on the test set (a miss counts as 10 false alarms) | model 119, do nothing 120, flag everything 136 |
+| Verdict | not production-ready; no meaningful saving over doing nothing |
+
+---
+
 ## Technical Stack
 
 | Area            | Technology                    |
@@ -204,10 +241,11 @@ Phase 2 shifts from "does the tool work?" to "can the data and the numbers be tr
 | Test framework  | Pytest, pytest-asyncio        |
 | Validation      | Pydantic (strict mode)        |
 | CLI             | Typer                         |
-| HTTP / API      | OpenAI SDK, httpx             |
+| HTTP / API      | OpenAI SDK, httpx2            |
 | Async execution | asyncio                       |
 | Test isolation  | Mock transport, fake clients  |
 | Data analysis   | Pandas, NumPy                 |
+| Machine learning| scikit-learn (pipelines)      |
 | Database        | SQLite, SQL (views, windows)  |
 | Data format     | CSV                           |
 | Version control | Git / GitHub                  |
@@ -270,6 +308,14 @@ Phase 2 tests were verified by breaking the code on purpose and recording which 
 
 The silent-failure rule lives in `common.py`, and "clean data" lives in one SQL view. Cleaning, reporting and tests all use the same definitions, and SQL and Pandas are reconciled against each other.
 
+### Evaluate against a baseline
+
+A model is only reported next to a trivial one (always predict "success", or do nothing). On imbalanced data the baseline already scores 91.89% accuracy, so accuracy alone says nothing.
+
+### No data leakage
+
+Only features known before the call may be used. A guard in the code and a test fail if a post-call field (response, error, judge score, latency, output tokens) enters the model, and the threshold is chosen on training data only.
+
 ### Honest metrics
 
 Latency is reported as p50 and p95, and failed calls are kept out of success latency. Silent failures are counted separately and excluded from judge-score averages. Comparisons state sample sizes and an interval, not just a difference.
@@ -303,6 +349,13 @@ Phase 2 tests cover:
 - cleaning order, logging and every validation rule
 - metrics, success-only rules, the statistical comparison and its edge cases
 
+Phase 3 tests cover:
+
+- target construction, required columns, empty and single-class data
+- precision and recall, including the zero-division cases
+- the leakage guard, threshold choice, bootstrap interval and computed verdict
+- determinism, a stratified and disjoint split, and a performance floor on the real data
+
 Tests are designed to validate both **functional behavior** and **failure handling**.
 
 ---
@@ -312,6 +365,7 @@ Tests are designed to validate both **functional behavior** and **failure handli
 - The log data is **synthetic** and messy on purpose.
 - The LLM judge scores were **never validated** against human ratings, and some silent failures received high scores. Judge-score results are therefore indicative only.
 - The adversarial result is a **correlation**: adversarial prompts are also harder, so the gap does not prove a cause.
+- Phase 3 rests on only **48 failures** (12 in the test set), so its results are wide ranges, not exact figures. Prompts in the synthetic log are generic ("Prompt N"), so prompt length carries almost no information.
 - The API contract tests use the public httpbin.org server, which can be slow or unavailable. Point them at a local copy with the `HTTPBIN_URL` environment variable, or run only the offline tests.
 - The OpenAI integration is implemented, including asynchronous requests, usage tracking, timeouts, retries, and error handling. The real API path has **not been verified end-to-end** because the available API account returned a `429 insufficient_quota` error during testing. The quota behavior itself is covered by an automated regression test using the real OpenAI SDK and a mocked HTTP transport.
 
@@ -327,7 +381,7 @@ From the relevant exercise directory:
 pip install -r requirements.txt
 ```
 
-Phase 2 additionally needs `pandas`, `numpy` and `httpx`, on top of the Exercise 2 requirements.
+Phase 2 additionally needs `pandas` and `numpy`, on top of the Exercise 2 requirements (the HTTP client `httpx2` is installed with the OpenAI SDK). Phase 3 needs `pandas` and `scikit-learn` (see `phase3-ml/requirements.txt`).
 
 ### Run Exercise 2 in mock mode
 
@@ -361,15 +415,28 @@ sqlite3 database.sqlite < sql/00_create_clean_view.sql
 sqlite3 -header -column database.sqlite < sql/07_error_rate_by_model.sql
 ```
 
+### Run the Phase 3 evaluation
+
+```bash
+cd phase2-api-data && python clean_data.py   # creates chat_logs_cleaned.csv, which Phase 3 reads
+cd ../phase3-ml
+python baseline.py                        # dummy baseline
+python leakage_demo.py                    # leaky vs honest features
+python evaluate.py                        # threshold, metrics, intervals, verdict
+python -m pytest -q                       # 49 tests
+```
+
 ### Run the whole project's tests
 
 ```bash
-pytest -q                                 # from the repository root, using pytest.ini
+pytest -q                                 # from the repository root, using pytest.ini (124 tests)
 ```
 
 ---
 
 ## Roadmap
+
+Completed so far: test automation foundations (Phase 1), API contracts and data analysis (Phase 2) and machine-learning evaluation (Phase 3).
 
 The portfolio will evolve toward more advanced AI Quality Engineering topics:
 
